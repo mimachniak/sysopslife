@@ -131,7 +131,6 @@ Install veyfication and client setup
 
 ![](/assets/images/Private-Access/AAD-M365-Private-Access-gsa-6.png)
 
-![](/assets/images/Private-Access/M365-GBA-1.mp4)
 
 <iframe width="640" height="360" src="https://mmachniak.net/assets/images/Private-Access/M365-GBA-1.mp4" frameborder="0" allowfullscreen></iframe>
 
