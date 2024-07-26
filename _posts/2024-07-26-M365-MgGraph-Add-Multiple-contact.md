@@ -73,12 +73,12 @@ Import-Module Microsoft.Graph.Beta.PersonalContacts
 
     ![](/assets/images/ShareContact/M365-EXO-PS-07.png)  
 
-1. Create credentials for **Runbook** used in script.
+4. Create credentials for **Runbook** used in script.
 
-**User Name:** Application ID
+**User Name:** Application ID  
 **Password:** Application secret
 
-    ![](/assets/images/ShareContact/M365-EXO-PS-07.png)   
+![](/assets/images/ShareContact/M365-EXO-PS-07.png)   
 
 1. Create **Runbook** with PowerShell version **7.X**    
 
