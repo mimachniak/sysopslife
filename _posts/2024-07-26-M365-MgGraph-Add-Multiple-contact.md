@@ -89,11 +89,15 @@ Import-Module Microsoft.Graph.Beta.PersonalContacts
 
 ### PowerShell script on GitHub run by Automation Account
 
+> GitHub Link 
+
 Link to script on **GitHub** [M365-MgGraph-Add-Multiple-contact-Personal-Mailbox.ps1](https://github.com/mimachniak/sysopslife-scripts/blob/master/M365/M365-MgGraph-Add-Multiple-contact-Personal-Mailbox.ps1) can also be shown.
 
 ## Example of contact created in user personal mailbox
 
-    ![](../assets/images/ShareContact/M365-EXO-PS-09.png)  
+EXample of output
+
+![](../assets/images/ShareContact/M365-EXO-PS-09.png)  
 
 
 
