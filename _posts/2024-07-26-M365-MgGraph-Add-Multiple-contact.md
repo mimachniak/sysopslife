@@ -1,8 +1,8 @@
 ---
-title: "Microsoft 365 Add Shared Contact to user personal mailbox for phone caller identification and."
+title: "Microsoft 365 Add Shared Contact to user personal mailbox for phone caller identification and more."
 classes: wide
 date: 2024-07-26
-excerpt: "Run by Azure Automation account PowerShell script that will add to user personal mailbox contact and update contact."
+excerpt: "Run by Azure Automation account PowerShell script that will add to user personal mailbox contact and update contact. You can distribution contacts to users based on organization requirements."
 toc: true
 header:
   image: /assets/images/page-header-teaser.png
