@@ -78,7 +78,7 @@ Import-Module Microsoft.Graph.Beta.PersonalContacts
 **User Name:** Application ID 
 **Password:** Application secret 
 
-![](/assets/images/ShareContact/M365-EXO-PS-07.png)   
+    ![](/assets/images/ShareContact/M365-EXO-PS-07.png)   
 
 1. Create **Runbook** with PowerShell version **7.X**    
 
