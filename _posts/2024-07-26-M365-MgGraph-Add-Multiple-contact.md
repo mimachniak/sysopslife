@@ -40,6 +40,9 @@ Here you can find how to configure your environment step by step. Script is runn
 
 1.	Logon to https://entra.microsoft.com/ 
 1.	Create app registration
+
+![](../assets/images/ShareContact/M365-EXO-PS-01.png)
+
 1.	Permission granted for application
 
 ### Configure Azure Automation Account
