@@ -6,7 +6,6 @@ excerpt: "Run by Azure Automation account PowerShell script that will add to use
 toc: true
 header:
   image: /assets/images/page-header-image.png
-  og_image: /assets/images/page-header-og-image.png
 categories:
  - Microsoft365
  - PowerShell
