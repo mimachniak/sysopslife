@@ -75,8 +75,8 @@ Import-Module Microsoft.Graph.Beta.PersonalContacts
 
 1. Create credentials for **Runbook** used in script.
 
-**User Name:** Application ID 
-**Password:** Application secret 
+**User Name:** Application ID
+**Password:** Application secret
 
     ![](/assets/images/ShareContact/M365-EXO-PS-07.png)   
 
