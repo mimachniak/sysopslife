@@ -67,7 +67,8 @@ Import-Module Microsoft.Graph.Beta.PersonalContacts
 1.	Logon to https://portal.azure.com
 1.	Navigate to automation account
 1.	On Menu select Modules -> Add module
-
+    ![](/assets/images/ShareContact/M365-EXO-PS-04.png)
+    ![](/assets/images/ShareContact/M365-EXO-PS-05.png)
 1. Create credentials for **Runbook** used in script.
 
 **User Name:** Application ID 
@@ -84,6 +85,8 @@ Link to script on **GitHub** [M365-MgGraph-Add-Multiple-contact-Personal-Mailbox
 ## Example of contact created in user personal mailbox
 
 Example of output in Outlook
+
+    ![](/assets/images/ShareContact/M365-EXO-PS-09.png)
 
 
 
