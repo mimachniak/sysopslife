@@ -67,12 +67,18 @@ Import-Module Microsoft.Graph.Beta.PersonalContacts
 1.	Logon to https://portal.azure.com
 1.	Navigate to automation account
 1.	On Menu select Modules -> Add module
-    ![](/assets/images/ShareContact/M365-EXO-PS-04.png)
-    ![](/assets/images/ShareContact/M365-EXO-PS-05.png)
+    ![](/assets/images/ShareContact/M365-EXO-PS-04.png)  
+
+    ![](/assets/images/ShareContact/M365-EXO-PS-05.png)  
+
+    ![](/assets/images/ShareContact/M365-EXO-PS-07.png)  
+
 1. Create credentials for **Runbook** used in script.
 
 **User Name:** Application ID 
 **Password:** Application secret 
+
+    ![](/assets/images/ShareContact/M365-EXO-PS-08.png)
 
 1. Create **Runbook** with PowerShell version **7.X**    
  
