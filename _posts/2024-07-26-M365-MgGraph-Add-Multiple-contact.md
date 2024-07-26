@@ -78,7 +78,7 @@ Import-Module Microsoft.Graph.Beta.PersonalContacts
 **User Name:** Application ID 
 **Password:** Application secret 
 
-    ![](/assets/images/ShareContact/M365-EXO-PS-08.png)
+    ![](/assets/images/ShareContact/M365-EXO-PS-08.png)  
 
 1. Create **Runbook** with PowerShell version **7.X**    
  
@@ -92,7 +92,7 @@ Link to script on **GitHub** [M365-MgGraph-Add-Multiple-contact-Personal-Mailbox
 
 Example of output in Outlook
 
-    ![](/assets/images/ShareContact/M365-EXO-PS-09.png)
+    ![](/assets/images/ShareContact/M365-EXO-PS-09.png)  
 
 
 
