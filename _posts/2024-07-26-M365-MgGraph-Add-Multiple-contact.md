@@ -40,16 +40,7 @@ Here you can find how to configure your environment step by step. Script is runn
 
 1.	Logon to https://entra.microsoft.com/ 
 1.	Create app registration
-
-
-
-![](../assets/images/ShareContact/M365-EXO-PS-01.png)  
-
-![](../assets/images/ShareContact/M365-EXO-PS-02.png)  
-
 1.	Permission granted for application
-
-![](../assets/images/ShareContact/M365-EXO-PS-03.png)  
 
 ### Configure Azure Automation Account
 
@@ -70,22 +61,13 @@ Import-Module Microsoft.Graph.Beta.PersonalContacts
 1.	Navigate to automation account
 1.	On Menu select Modules -> Add module
 
-
-![](../assets/images/ShareContact/M365-EXO-PS-04.png)  
-![](../assets/images/ShareContact/M365-EXO-PS-05.png)  
-![](../assets/images/ShareContact/M365-EXO-PS-06.png)  
-
 1. Create credentials for **Runbook** used in script.
 
 **User Name:** Application ID 
 **Password:** Application secret 
 
-![](../assets/images/ShareContact/M365-EXO-PS-07.png)
-
 1. Create **Runbook** with PowerShell version **7.X**    
-![](../assets/images/ShareContact/M365-EXO-PS-08.png)    
-
-
+ 
 ### PowerShell script on GitHub run by Automation Account
 
 > GitHub Link 
@@ -94,9 +76,8 @@ Link to script on **GitHub** [M365-MgGraph-Add-Multiple-contact-Personal-Mailbox
 
 ## Example of contact created in user personal mailbox
 
-Example of output
+Example of output in Outlook
 
-![](../assets/images/ShareContact/M365-EXO-PS-09.png)  
 
 
 
