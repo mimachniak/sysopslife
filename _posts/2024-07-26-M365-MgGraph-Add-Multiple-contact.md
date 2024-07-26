@@ -42,8 +42,11 @@ Here you can find how to configure your environment step by step. Script is runn
 1.	Create app registration
 
 ![](/assets/images/ShareContact/M365-EXO-PS-01.png)
+![](/assets/images/ShareContact/M365-EXO-PS-02.png)
 
 1.	Permission granted for application
+
+![](/assets/images/ShareContact/M365-EXO-PS-03.png)
 
 ### Configure Azure Automation Account
 
