@@ -5,8 +5,6 @@ date: 2024-07-26
 excerpt: "Run by Azure Automation account PowerShell script that will add to user personal mailbox contact and update contact. You can distribution contacts to users based on organization requirements."
 toc: true
 header:
-  teaser: /assets/images/page-header-teaser.png
-  og_image: /assets/images/page-header-og-image.png
 categories:
  - Microsoft365
  - PowerShell
@@ -95,9 +93,9 @@ Link to script on **GitHub** [M365-MgGraph-Add-Multiple-contact-Personal-Mailbox
 
 ## Example of contact created in user personal mailbox
 
-EXample of output
+Example of output
 
-![](../assets/images/ShareContact/M365-EXO-PS-09.png)  
+   ![](../assets/images/ShareContact/M365-EXO-PS-09.png)  
 
 
 
