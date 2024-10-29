@@ -33,9 +33,9 @@ Configuration to setup in each stroage account, we need to allow object replicat
   3. In context menu go to **Advanced Settings**
   4. Allow cross tenant object access  
     
-     ![](../assets/images/Azure/ST-Sync-Multiple-Object/st-sync-00.png)  
+     ![](/assets/images/Azure/ST-Sync-Multiple-Object/st-sync-00.png)  
 
-     ![](../assets/images/Azure/ST-Sync-Multiple-Object/st-sync-0.png)  
+     ![](/assets/images/Azure/ST-Sync-Multiple-Object/st-sync-0.png)  
 
 
 
@@ -191,9 +191,9 @@ Configuration to setup in each stroage account, we need to allow object replicat
 2.  Logon to https://portal.azure.com
 3.  Navigate to **Storage Account**
 4.  In navigation go to **Object replication** and **Upload Rules**
-    ![](../assets/images/Azure/ST-Sync-Multiple-Object/st-sync-1.png)  
+    ![](/assets/images/Azure/ST-Sync-Multiple-Object/st-sync-1.png)  
 5. Check that rules include all object and destination and source is correct.
-    ![](../assets/images/Azure/ST-Sync-Multiple-Object/st-sync-3.png)  
+    ![](/assets/images/Azure/ST-Sync-Multiple-Object/st-sync-3.png)  
 
 
 ### Confiuration source storage account object replication policy
@@ -354,7 +354,7 @@ Get-AzStorageObjectReplicationPolicy -ResourceGroupName "RG_name_destination" -S
 }
 ```
 4.  In navigation go to **Object replication** and **Upload Rules**
-    ![](../assets/images/Azure/ST-Sync-Multiple-Object/st-sync-1.png)  
+    ![](/assets/images/Azure/ST-Sync-Multiple-Object/st-sync-1.png)  
 5. Check that rules include all object and destination and source is correct.
-    ![](../assets/images/Azure/ST-Sync-Multiple-Object/st-sync-7.png) 
+    ![](/assets/images/Azure/ST-Sync-Multiple-Object/st-sync-7.png) 
 
