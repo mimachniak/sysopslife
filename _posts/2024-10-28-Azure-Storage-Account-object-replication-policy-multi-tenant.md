@@ -21,12 +21,12 @@ hidden: false
 
 ## Prerequisites
 
-* Storage Account in diffrent tenants.
-* Az PowereShell module.
+* Storage Account in different tenants.
+* Az PowerShell module.
 
 ## Configuration 
 
-Configuration to setup in each stroage account, we need to allow object replication between diffrent tenants.
+Configuration to setup in each storage account, we need to allow object replication between diffrent tenants.
 
   1. Navigate to **Storage Account**
   2. In navigation go to **Object replication**
@@ -43,7 +43,7 @@ Configuration to setup in each stroage account, we need to allow object replicat
 ### Confiuration destination storage account
 
 1. Prepare policy file in destination storage account 
-  * **ruleId** - for each blob need to uniqe guid
+  * **ruleId** - for each blob need to unique guid
   * **minCreationTime** - For sync all content we need to setup date / time before day of creation
   * **sourceAccount** - object ID of source storage account
   * **destinationAccount**  - object ID of destinationAccount storage account
@@ -55,7 +55,7 @@ Configuration to setup in each stroage account, we need to allow object replicat
     "destinationAccount": "/subscriptions/xxxxxxxxxxxxxxxxxxxxxx/resourceGroups/RG_name_destination/providers/Microsoft.Storage/storageAccounts/storageaccount_name_destination",
     "rules": [
       {
-        "ruleId": "1f45eace-d5fb-4e8e-9e1c-cf8219615644", // Rule ID need to be guid random gnerated
+        "ruleId": "1f45eace-d5fb-4e8e-9e1c-cf8219615644", // Rule ID need to be guid random generated
         "sourceContainer": "dms5",
         "destinationContainer": "dms5",
         "filters": {
@@ -208,7 +208,7 @@ Get-AzStorageObjectReplicationPolicy -ResourceGroupName "RG_name_destination" -S
    ![](../assets/images/Azure/ST-Sync-Multiple-Object/st-sync-4.png)  
 
 2. Prepare policy file in destination storage account 
-  * **ruleId** - for each blob need to uniqe guid
+  * **ruleId** - for each blob need to unique guid
   * **minCreationTime** - For sync all content we need to setup date / time before day of creation
   * **sourceAccount** - object ID of source storage account
   * **destinationAccount**  - object ID of destinationAccount storage account
@@ -222,7 +222,7 @@ Get-AzStorageObjectReplicationPolicy -ResourceGroupName "RG_name_destination" -S
     "destinationAccount": "/subscriptions/xxxxxxxxxxxxxxxxxxxxxx/resourceGroups/RG_name_destination/providers/Microsoft.Storage/storageAccounts/pstorageaccount_name_destination",
     "rules": [
       {
-        "ruleId": "1f45eace-d5fb-4e8e-9e1c-cf8219615644", // Rule ID need to be guid random gnerated
+        "ruleId": "1f45eace-d5fb-4e8e-9e1c-cf8219615644", // Rule ID need to be guid random generated
         "sourceContainer": "dms5",
         "destinationContainer": "dms5",
         "filters": {
