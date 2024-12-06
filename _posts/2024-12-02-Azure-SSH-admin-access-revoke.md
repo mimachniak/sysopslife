@@ -55,6 +55,6 @@ az vm user update --resource-group rg-admin-001 --name vm-linuxadmin --username 
 
 4. On menu naviagate to **Connection** --> **SSH** --> **Auth** --> **Credentials** and load Private key located on the local storage.
 
-   ![](/assets/images/Azure/4-SSH.png)  
+   ![](/assets/images/Azure/SSH/4-SSH.png)  
 5. Connect to VM with new sudo administrator account. 
 
